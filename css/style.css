@@ -1,0 +1,33 @@
+body {
+	margin:0 auto;
+	text-align:center;
+}
+#ad_3v{display:none;}
+.qrcode-text
+{
+	margin:0 auto;
+	text-align:center;
+}
+
+#myCanvas
+{
+	margin:0 auto;
+	text-align:center;
+}
+#bottom
+{
+        width:780px;
+	margin:0 auto;
+	text-align:center;	
+}
+.qrcodeCon{text-align:center;height:60px;width:100%}
+#qrcode{display:inline-block;*float:left;*margin-top:4px}
+#qrcode .qrcode-item{float:left}
+#qrcode .qrcode-img{width:60px;height:60px}
+#qrcode .qrcode-item-1 .qrcode-img{background:url(../image/qrcode.png) 0 0 no-repeat}
+@media only screen and (-webkit-min-device-pixel-ratio:2){#qrcode .qrcode-item-1 .qrcode-img{background-image:url(../image/qrcode.png);background-size:60px 60px}
+#qrcode .qrcode-text{color:#999;line-height:23px;margin:3px 0 0 5px}
+#qrcode .qrcode-text a{color:#999;text-decoration:none}
+#qrcode .qrcode-text p{text-align:left}
+#qrcode .qrcode-text b{color:#666;font-weight:700}
+#qrcode .qrcode-text span{letter-spacing:1px}
